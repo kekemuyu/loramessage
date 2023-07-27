@@ -1,10 +1,11 @@
 package config
+
 //fix
 import (
+	"log"
 	"os"
 	"path/filepath"
 
-	"github.com/donnie4w/go-logger/logger"
 	"github.com/go-ini/ini"
 )
 
@@ -16,7 +17,7 @@ func init() {
 	Cfg, err = ini.Load(GetRootdir() + "/config/config.ini")
 
 	if err != nil {
-		logger.Error("Fail to read file: %v", err)
+		log.Fatal("Fail to read file: %v", err)
 		os.Exit(1)
 	}
 }

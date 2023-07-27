@@ -1,5 +1,5 @@
 package cgo
-//fix
+
 //#include"oled.h"
 import "C" //注意：include和import之间不能有空格
 import (

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/issue9/autoinc"
 	"github.com/kekemuyu/loramessage/control"
 	"github.com/kekemuyu/loramessage/db"
 	"github.com/kekemuyu/loramessage/msg"
