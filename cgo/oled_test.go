@@ -1,7 +1,7 @@
 package cgo
 
 import (
-	"loramessage/hzk"
+	"github.com/kekemuyu/loramessage/hzk"
 	"testing"
 	"time"
 )

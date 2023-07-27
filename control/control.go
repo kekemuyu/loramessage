@@ -2,7 +2,7 @@ package control
 
 import (
 	"fmt"
-	"loramessage/cgo"
+	"github.com/kekemuyu/loramessage/cgo"
 	"time"
 )
 

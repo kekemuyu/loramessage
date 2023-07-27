@@ -3,10 +3,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"loramessage/control"
-	"loramessage/db"
-	"loramessage/msg"
 	"time"
+
+	"github.com/kekemuyu/loramessage/control"
+	"github.com/kekemuyu/loramessage/db"
+	"github.com/kekemuyu/loramessage/msg"
 )
 
 func main() {

@@ -2,8 +2,8 @@ package control
 
 import (
 	"fmt"
-	"loramessage/cgo"
-	"loramessage/hzk"
+	"github.com/kekemuyu/loramessage/cgo"
+	"github.com/kekemuyu/loramessage/hzk"
 )
 
 type Slist struct {

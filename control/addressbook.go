@@ -1,7 +1,7 @@
 package control
 
 import (
-	"loramessage/cgo"
+	"github.com/kekemuyu/loramessage/cgo"
 )
 
 type AddrBook struct {

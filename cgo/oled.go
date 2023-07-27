@@ -3,7 +3,7 @@ package cgo
 //#include"oled.h"
 import "C" //注意：include和import之间不能有空格
 import (
-	"loramessage/hzk"
+	"github.com/kekemuyu/loramessage/hzk"
 )
 
 func init() {
