@@ -1,5 +1,6 @@
 package cgo
 
+//fix
 //#include"devmem.h"
 import "C" //注意：include和import之间不能有空格
 

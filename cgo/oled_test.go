@@ -1,5 +1,5 @@
 package cgo
-
+//fix
 import (
 	"github.com/kekemuyu/loramessage/hzk"
 	"testing"
