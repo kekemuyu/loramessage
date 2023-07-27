@@ -1,5 +1,5 @@
 package control
-//fix
+//fix2
 import (
 	"fmt"
 	"github.com/kekemuyu/loramessage/cgo"
